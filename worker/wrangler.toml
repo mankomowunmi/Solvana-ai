@@ -1,0 +1,11 @@
+name = "solvana-ai-api"
+main = "src/index.ts"
+compatibility_date = "2026-10-26"
+
+[ai]
+binding = "AI"
+
+[vars]
+MODEL = "@cf/meta/llama-3.1-8b-instruct"
+# Set this to https://mankomowunmi.github.io before deployment.
+# ALLOWED_ORIGIN = "https://mankomowunmi.github.io"
